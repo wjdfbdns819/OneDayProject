@@ -2,58 +2,57 @@ package com.callor.score.model;
 
 public class ScoreVO {
 
-	private String name;
-	private String num;
-	private Integer kor;
-	private Integer eng;
-	private Integer math;
-	private Integer science;
-	private Integer history;
-	
+	private String name; // 이름
+	private String num; // 순번?
+	private String strKor;
+	private String strEng;
+	private String strMath;
+	private String strSci;
+	private String strHis;
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 	public String getNum() {
 		return num;
 	}
 	public void setNum(String num) {
 		this.num = num;
 	}
+	public String getStrKor() {
+		return strKor;
+	}
+	public void setStrKor(String strKor) {
+		this.strKor = strKor;
+	}
+	public String getStrEng() {
+		return strEng;
+	}
+	public void setStrEng(String strEng) {
+		this.strEng = strEng;
+	}
+	public String getStrMath() {
+		return strMath;
+	}
+	public void setStrMath(String strMath) {
+		this.strMath = strMath;
+	}
+	public String getStrSci() {
+		return strSci;
+	}
+	public void setStrSci(String strSci) {
+		this.strSci = strSci;
+	}
+	public String getStrHis() {
+		return strHis;
+	}
+	public void setStrHis(String strHis) {
+		this.strHis = strHis;
+	}
 	
-	public Integer getKor() {
-		return kor;
-	}
-	public void setKor(Integer kor) {
-		this.kor = kor;
-	}
-	public Integer getEng() {
-		return eng;
-	}
-	public void setEng(Integer eng) {
-		this.eng = eng;
-	}
-	public Integer getMath() {
-		return math;
-	}
-	public void setMath(Integer math) {
-		this.math = math;
-	}
-	public Integer getScience() {
-		return science;
-	}
-	public void setScience(Integer science) {
-		this.science = science;
-	}
-	public Integer getHistory() {
-		return history;
-	}
-	public void setHistory(Integer history) {
-		this.history = history;
-	}
+	
 	
 	
 }

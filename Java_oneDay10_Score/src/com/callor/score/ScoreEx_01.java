@@ -9,6 +9,7 @@ public class ScoreEx_01 {
 		ScoreService_01 ssV1 = new ScoreService_01();
 		
 		
+		
 	}
 	
 	
