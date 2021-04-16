@@ -72,7 +72,6 @@ public class ScoreService_01 {
 	
 	}
 
-
 	public void inputSubject(ScoreVO vo) {
 	
 		String strKor = null;
@@ -119,6 +118,7 @@ public class ScoreService_01 {
 		while (true) {
 			System.out.print("과학 >> ");
 			strSci = scan.nextLine();
+				intSci = Integer.valueOf(strSci);
 			if (intSci < 0 || intSci > 100) {
 				System.out.println("점수는 0 ~ 100까지 범위만 입력");
 				continue;
@@ -130,8 +130,8 @@ public class ScoreService_01 {
 		Integer intHis = 0;
 		while (true) {
 			System.out.print("국사 >> ");
-			
 			strHis = scan.nextLine();
+				intHis = Integer.valueOf(strHis);
 			if (intHis < 0 || intHis > 100) {
 				System.out.println("점수는 0 ~ 100까지 범위만 입력");
 				
